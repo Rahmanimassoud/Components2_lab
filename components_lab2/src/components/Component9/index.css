@@ -1,0 +1,39 @@
+
+
+.container {
+    display: flex;
+    transition: margin-left 0.3s;
+  }
+  
+  .sidebar {
+    width: 250px; /* Change to a wider initial width */
+    height: 100%;
+    background-color: #333;
+    color: white;
+    overflow-x: hidden;
+  }
+  
+  .sidebar.expanded {
+    width: 80px;
+  }
+  
+  .toggle-button {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    z-index: 1;
+  }
+  
+  ul {
+    padding: 0;
+    list-style: none;
+  }
+  
+  li {
+    padding: 10px;
+    border-bottom: 1px solid #444;
+  }
+  
+  li:last-child {
+    border-bottom: none;
+  }

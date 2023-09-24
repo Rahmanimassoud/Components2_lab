@@ -1,0 +1,15 @@
+.star {
+    font-size: 24px;
+    cursor: pointer;
+    color: #ccc;
+}
+
+.star.active {
+    color: gold;
+}
+
+.feedback {
+    margin-top: 20px;
+    font-weight: bold;
+    color: green;
+}

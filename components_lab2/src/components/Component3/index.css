@@ -1,0 +1,8 @@
+.user-bio {
+    display: flex;
+    flex-direction: column;
+}
+.user-bio button {
+    width: 100px;
+    background-color: brown;
+}
